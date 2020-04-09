@@ -10,7 +10,7 @@ VPC, Sub-Networks, Internet Gateway, NAT Gateway, Listener, IAM Role, Securiity 
 * Set up AWScli client on your local system
 
 ## SetUp
-Clone this repo using `git clone https://github.com/Felarabe/udagram-iac
+Clone this repo using `git clone https://github.com/Felarabe/udagram-iac.git`
 The repo is made up of two folders; infra and scripts.
 
 To spin up a new stack, run
