@@ -1,7 +1,7 @@
 ## Udacity Cloud DevOps Engineer Nanodegree
 ### UDAGRAM - Project 2 - Deploy IaC using AWS CloudFormation
 
-##Info
+## Info
 The aim of this stack is to replicate the image in this repo. The resources to be provisioned are:
 VPC, Sub-Networks, Internet Gateway, NAT Gateway, Listener, IAM Role, Securiity Groups, Routes and Rout Tables,  Elastic IPs, Load Balancer, Target Group, Autoscaling Group
 
@@ -9,7 +9,7 @@ VPC, Sub-Networks, Internet Gateway, NAT Gateway, Listener, IAM Role, Securiity 
 * AWS Account
 * Set up AWScli client on your local system
 
-##SetUp
+## SetUp
 Clone this repo using `git clone https://github.com/Felarabe/udagram-iac
 The repo is made up of two folders; infra and scripts.
 
