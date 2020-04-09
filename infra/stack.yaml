@@ -213,10 +213,6 @@ Resources:
           FromPort: 80
           ToPort: 80
           CidrIp: 0.0.0.0/0
-        - IpProtocol: tcp
-          FromPort: 8080
-          ToPort: 8080
-          CidrIp: 0.0.0.0/0
       SecurityGroupEgress:
         - IpProtocol: tcp
           FromPort: 22
@@ -315,7 +311,6 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub ${EnvironmentName}-bastion
-      KeyName: !Ref KeyName
       ImageId: ami-005bdb005fb00e791
       InstanceType: t2.micro
       SubnetId:
@@ -368,7 +363,7 @@ Resources:
         Ref: S3RoleForServer
       SecurityGroups:
         - Ref: LBSecGroup
-      InstanceType: t2.micro
+      InstanceType: t2.small
       BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:

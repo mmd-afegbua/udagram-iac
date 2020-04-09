@@ -28,3 +28,13 @@ Head to AWS console, go to CloudFormation stacks and monitor the stack till it r
 
 Open the Export section of CloudFormation and look for the DNS name for the loadBalancer.
 In my case it is; http://udagr-WebAp-T24QY2SV560-17069260.us-west-2.elb.amazonaws.com
+
+Incase you want to update the stack, use:
+```
+./scripts/update.sh <your-stack-name> stack.yaml stack-parameter.json
+
+```
+For cleanup, run
+```
+./scripts/cleanup.sh <your-stack-name>
+```
