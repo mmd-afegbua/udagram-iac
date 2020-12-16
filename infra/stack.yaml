@@ -1,5 +1,5 @@
-Description:
-    Momodu Afegbua - Cloud DevOps Engineer Nanodegree - Project 2
+xDescription:
+    Momodu Afegbua - For Dagram, two tier infrastructure
 Parameters:
     EnvironmentName:
         Description: An Environment name that will be prefixed to resources
